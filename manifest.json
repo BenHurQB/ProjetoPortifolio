@@ -1,0 +1,92 @@
+{
+  "name": "BEN BQB",
+  "short_name": "BQB BET",
+  "icons": [
+    {
+      "src": "./Asset/image/128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/102.png",
+      "sizes": "102x102",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/92.png",
+      "sizes": "92x92",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/58.png",
+      "sizes": "58x58",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/57.png",
+      "sizes": "57x57",
+      "type": "image/png"
+	    /*"purpose": "any maskable"*/
+    },
+    {
+      "src": "./Asset/image/32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/29.png",
+      "sizes": "29x29",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/29.png",
+      "sizes": "29x29",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/20.png",
+      "sizes": "20x20",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/1.webp",
+      "sizes": "1x1",
+      "type": "image/webp"
+    },
+    {
+      "src": "./Asset/image/github.webp",
+      "sizes": "1x1",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/linkedin.webp",
+      "sizes": "1x1",
+      "type": "image/png"
+    },
+    {
+      "src": "./Asset/image/twich.webp",
+      "sizes": "1x1",
+      "type": "image/png"
+    }
+
+
+
+
+
+
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#31506F",
+  "theme_color": "#4D5360"
+}
