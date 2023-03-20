@@ -17,6 +17,7 @@
 </head>
 <body aria-hidden="true">
     
+    
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="Projeto2.html">Home</a>
@@ -40,5 +41,34 @@
     <footer class="rodape">
         <p>Desenvido pela Joana Santos Dev...</p>
     </footer>
+    <script>
+        let newWorker;
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js').then(reg => {
+                reg.addEventListener('updatefound', () => {
+                    // A wild service worker has appeared in reg.installing!
+                    newWorker = reg.installing;
+                    newWorker.addEventListener('statechange', () => {
+                        // Has network.state changed?
+                        switch (newWorker.state) {
+                            case 'installed':
+                                if (navigator.serviceWorker.controller) {
+                                    // new update available
+                                }
+                                // No update available
+                                break;
+                        }
+                    });
+                });
+            });
+            let refreshing;
+            navigator.serviceWorker.addEventListener('controllerchange', function () {
+                if (refreshing) return;
+                window.location.reload();
+                refreshing = true;
+            });
+        }
+    </script>
 </body>
+
 </html>
